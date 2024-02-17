@@ -1,0 +1,4 @@
+orange = #ffb534
+ashi = #fbf6ee
+lemon = #c1f2b0
+green  = #65b741

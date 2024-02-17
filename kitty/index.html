@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty</title>
+
+    <!-- Styling both-->
+    <link rel="stylesheet" href="static/bootstrap.css">
+    <link rel="stylesheet" href="static/style.css">
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="static/all.css">
+    <script src="static/all.js"></script>
+
+</head>
+<body>
+
+
+  <!-- The header section-->
+
+    <section id="title">
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg " >
+      <a class="navbar-brand" href="#">cuteKitty</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+          <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navItem">
+            <il class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </il>
+            <il class="nav-item">
+                <a href="#" class="nav-link">Service</a>
+            </il>
+            <il class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+            </il>
+            <il class="nav-item">
+                <a href="#" class="nav-link">About</a>
+            </il>
+            </ul>
+          <form class="d-flex mt-3 mt-lg-0" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+      </div>
+    </div>
+  </nav>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Here you can Meet cute and intersting nearby Kitty</h1>
+            <div class="ssBtn">
+              <button class=" btn btn-success btn-lg btn-block " type="button"><i class="fas fa-right-to-bracket"></i> Sign-In</button>
+              <button class=" btn btn-outline-dark btn-lg btn-block mx-4" type="button"><i class="logOutBtn fas fa-arrow-right-from-bracket"></i> Sign-Up</button>
+          </div>
+          </div>
+        <div class="col-lg-6">
+            <img src="images/kitty.png" alt="kittyImage" class="kittyImage d-none d-lg-block ">
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- features section -->
+
+    <section id="features">
+     
+      <div class="row">
+        <div class="col-lg-3 col-md-6  featuer-box ">
+          <i class="faIcon fas fa-check-circle fa-4x"></i>
+          <h3>Secure Boarding Facilities</h3>
+          <p>Safe ans comfortable environment, Individualized attention for each cat</p>
+            </div>
+            <div class="col-lg-3 col-md-6  featuer-box">
+              <i class="faIcon fas fa-bullseye fa-4x"></i>
+              <h3>Flexible Booking Options</h3>
+              <p>Easy scheduling for cat care serivce, Tailored to accommodate different needs</p>
+            </div>
+              <div class="col-lg-3 col-md-6  featuer-box">
+                <i class=" faIcon fas fa-home fa-4x"></i>
+                <h3>Loyalty Programs </h3>
+                <p>Rewarding our customers for their loyalty with discounts and perks</p>
+              </div>
+                <div class="col-lg-3 col-md-6  featuer-box">
+                  <i class="faIcon fas fa-heart fa-4x"></i>
+              <h3>In-App Messaging</h3>
+              <p>Dricet communication with our staff, Quick reponse to queries and updates</p>
+            </div>
+  
+      </div>
+    </section>
+
+
+    <!-- Testimonial section -->
+
+    <section id="testimonials">
+
+          <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, soluta? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Doloremque, possimus?</h2>
+                  <img class="testImage" src="images/nwankwo1.png" alt="nwankwo">
+                  <em>Nwankwo, Abuja Nigeria</em>
+                    <p><a class="" href="#myCarousel"></a></p>
+              </div>
+              <div class="carousel-item">
+                  <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, soluta?</h2>
+                  <img class="testImage" src="images/orbite.png" alt="orbite">
+                  <em>Orbite, Lagos Nigeria</em>
+                    <p><a class="" href="#myCarousel"></a></p>
+              </div>
+              <div class="carousel-item">
+                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, soluta?</h2>
+                    <img class="testImage" src="images/random-woman.png" alt="random-woman">
+                    <em>Rehanna, Englang U.K</em>
+                    <p><a class="" href="#myCarousel"></a></p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
+
+
+    <!-- Press -->
+    
+    <section id="press">
+      <img class="pressLogo" src="images/techcrunch.png" alt="tc-logo">
+      <img class="pressLogo" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class="pressLogo" src="images/mashable.png" alt="mashable">
+    </section>
+
+
+    <!-- Pricing section  -->
+
+    <section id="pricing">
+
+      <h2 class="pricingTitle">A Plan for Every Day Kitty</h2>
+      <p>Standard and affordable price plans for your and your kitty</p>
+
+      <div class="table-responsive pricingBody">
+        <table class="table text-center">
+          <thead class="priceHeader">
+            <tr>
+              <th style="width: 34%;"></th>
+              <th style="width: 22%;">Free</th>
+              <th style="width: 22%;">Pro</th>
+              <th style="width: 22%;">Enterprise</th>
+            </tr>
+          </thead>
+          <tbody >
+            <tr>
+              <th scope="row" class="text-start">Public</th>
+              <td><i class="checkMark fas fa-check"></i></td><td><i class="checkMark fas fa-check"></i></td><td><i class="checkMark fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Private</th>
+              <td></td><td><i class="checkMark fas fa-check"></i></td><td><i class="checkMark fas fa-check"></i></td>
+            </tr>
+          </tbody>
+      
+          <tbody class="pricingBody">
+            <tr>
+              <th scope="row" class="text-start">Permissions</th>
+               <td></td><td></td><td><i class="checkMark fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Sharing</th>
+              <td><i class="checkMark fas fa-check"></i></td><td><i class="checkMark fas fa-check"></i></td><td><i class="checkMark fas fa-check"></i></td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Unlimited members</th>
+              <td></td><td></td><td><i class="checkMark fas fa-check"></i></td>
+            <tr>
+              <th scope="row" class="text-start">Extra security</th>
+              <td></td><td></td><td><i class="checkMark fas fa-check"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+        <!-- 
+        <h3>Chihuahua</h3>
+        <h2>Free</h2>
+        <p>10 Matches Per Day</p>
+        <p>20 Message Per Day</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign Up</button>
+
+        <h3>Labrador</h3>
+        <h2>$14.99</h2>
+        <p>Unlimited Per Day</p>
+        <p>Unlimited Per Day</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign Up</button> -->
+    </section>
+
+
+      <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="ctaText">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-lg btn-block btn-outline-success"><i class="fab fa-windows"></i> Download</button>
+    <button type="button" class="btn btn-lg btn-block btn-outline-dark mx-4"><i class="fas fa-apple-whole"></i> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="contact  pb-4 shadow-lg">
+      <footer class="py-3 my-4 " id="footer">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Recent</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">&copy; 2023 Nwankwo, Inc</p>
+      </footer>
+    </div>
+  </section>
+    
+    <script src="static/bootstrap.js"></script>
+</body>
+</html>
